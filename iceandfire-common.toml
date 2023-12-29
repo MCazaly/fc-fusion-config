@@ -32,23 +32,23 @@
 		"Generate Dragon Skeletons" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Skeleton Chance" = 64
+		"Generate Dragon Skeleton Chance" = 1000
 		#Whether to generate dragon caves or not
 		"Generate Dragon Caves" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Cave Chance" = 32
+		"Generate Dragon Cave Chance" = 500
 		#Whether to generate dragon roosts or not
 		"Generate Dragon Roosts" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Roost Chance" = 64
+		"Generate Dragon Roost Chance" = 500
 		#1 out of this number chance per block that gold will generate in dragon lairs.
 		#Range: 1 ~ 10000
 		"Dragon Den Gold Amount" = 8
 		#Ratio of Stone(this number) to Ores in Dragon Caves
 		#Range: 1 ~ 10000
-		"Dragon Cave Ore Ratio" = 100
+		"Dragon Cave Ore Ratio" = 50
 
 	[Generation.Structures-Features]
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn.
@@ -66,12 +66,12 @@
 		"Generate Mausoleums" = true
 		#One out of this number chance per chunk to generate a mausoleum.
 		#Range: 1 ~ 10000
-		"Mausoleum Gen Chance" = 64
+		"Mausoleum Gen Chance" = 3600
 		#Whether to generate graveyards or not
 		"Generate Graveyards" = true
 		#Graveyard rarity.
 		#Range: 2 ~ 10000
-		"Graveyard Chance" = 32
+		"Graveyard Chance" = 200
 
 [Dragons]
 
@@ -170,7 +170,7 @@
 		"Spawn Pixies Chance" = 240
 		#size of pixie villages
 		#Range: 1 ~ 10000
-		"Pixie Village Size" = 10
+		"Pixie Village Size" = 16
 		#True if pixies are allowed to steal from players
 		"Pixies Steal Items" = true
 
@@ -179,12 +179,12 @@
 		"Spawn Cyclopes Caves" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Cyclops Cave Chance" = 400
+		"Spawn Cyclops Cave Chance" = 256
 		#True if wandering cyclopes are allowed to spawn
 		"Spawn Wandering Cyclopes" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Wandering Cyclops Chance" = 400
+		"Spawn Wandering Cyclops Chance" = 128
 		#Maximum cyclops health
 		#Range: 1.0 ~ 10000.0
 		"Cyclops Max Health" = 250.0
@@ -281,7 +281,7 @@
 		"Stymphalian Birds Target Animals" = false
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Stymhphalian Bird Chance" = 240
+		"Spawn Stymhphalian Bird Chance" = 200
 
 	[Mobs.Trolls]
 		#True if trolls are allowed to spawn
@@ -290,7 +290,7 @@
 		"Trolls Drop Weapon" = true
 		#Troll spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Troll Spawn Weight" = 15
+		"Troll Spawn Weight" = 25
 		#A double check to see if the game can spawn trolls. Higher number = lower chance to spawn.
 		#Range: 0 ~ 10000
 		"Troll Spawn Check Chance" = 2
@@ -312,7 +312,7 @@
 		"Myrmex Hatch Length" = 70000
 		#One out of this number chance per chunk to generate a myrmex hive.
 		#Range: 1 ~ 10000
-		"Myrmex Colony Gen Chance" = 400
+		"Myrmex Colony Gen Chance" = 250
 		#How many maximum individuals a myrmex colony can have.
 		#Range: 10 ~ 10000
 		"Myrmex Colony Max Size" = 80
@@ -330,7 +330,7 @@
 		"Spawn Amphitheres" = true
 		#Amphithere spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Amphithere Spawn Weight" = 15
+		"Amphithere Spawn Weight" = 25
 		#How many blocks away can ampitheres detect villagers being hurt. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
 		"Amphithere Villager Search Length" = 64
@@ -352,7 +352,7 @@
 		"Spawn Sea Serpents" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sea Serpent Chance" = 500
+		"Spawn Sea Serpent Chance" = 300
 		#Whether or not sea serpents can break weak blocks in their way
 		"Sea Serpent Griefing" = true
 		#Default sea serpent health, this is scaled to the sea serpent's particular size
@@ -367,7 +367,7 @@
 		"Spawn Hippocampus" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Hippocampus Chance" = 80
+		"Spawn Hippocampus Chance" = 50
 		#Change this to slow down or speed up hippocampus swimming.
 		#Range: 0.0 ~ 2.0
 		"Hippocampus Swim Speed Modifier" = 1.1
@@ -387,7 +387,7 @@
 		"Spawn Gorgons" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Gorgon Chance" = 250
+		"Spawn Gorgon Chance" = 128
 		#Maximum gorgon health
 		#Range: 1.0 ~ 10000.0
 		"Gorgon Max Health" = 125.0
@@ -400,7 +400,7 @@
 		"Lich Spawn Weight" = 2
 		#Dread Lich spawn chance. Lower = higher chance to spawn
 		#Range: 1 ~ 10000
-		"Lich Spawn Chance" = 80
+		"Lich Spawn Chance" = 60
 		#Maximum hydra health
 		#Range: 1.0 ~ 10000.0
 		"Hydra Max Health" = 275.0
